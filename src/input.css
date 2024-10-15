@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom,rgb(255, 171, 25),rgb(255, 189, 67));
+    border-radius: 10px;
+  }
+
+  .bg-amazon{
+    background-color: #232F3E;
+  }
+
+  .bg-amazon-1{
+    background-color: #0F1111;
+  }
+
+  .bg-amazon-2
+  {
+    background-color:  #3d4c5b;
+  }
+
+  .text-ssm{
+    font-size:0.555rem;
+    line-height: 1rem;
+  }
